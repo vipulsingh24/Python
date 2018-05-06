@@ -1,5 +1,5 @@
 '''
-Implemetation of Interpolation Search using Probe positio formula,
+Implemetation of Interpolation Search using Probe position formula,
 pos = low + [ (x-arr[low])*(high-low) / (arr[high]-arr[low]) ]
 '''
 

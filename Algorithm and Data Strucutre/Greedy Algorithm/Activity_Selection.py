@@ -17,6 +17,7 @@ def activitySelection(a):
 s = [int(x) for x in input('Enter start time of activities: ').split(',')]
 f = [int(x) for x in input('Enter finish time of activities: ').split(',')]
 
+# Making a single list by zipping start and finish time
 tt = [[s, f] for s, f in zip(s, f)]
 print('\nActivities are: ', tt)
 tt_sort = sorted(tt, key=lambda x: x[1])

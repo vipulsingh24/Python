@@ -34,7 +34,7 @@ class Graph:
 		i = 0
 		e = 0
 
-		self.graph = sorted(self.graph, key=lambda x: x[1])
+		self.graph = sorted(self.graph, key=lambda x: x[2])
 		parent = []; rank = []
 
 		for node in range(self.V):

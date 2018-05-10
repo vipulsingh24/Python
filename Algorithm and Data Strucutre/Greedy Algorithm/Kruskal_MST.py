@@ -4,7 +4,7 @@ Implementation of Kruskal Minimum Spanning Tree
 
 from collections import defaultdict
 
-clas Graph:
+class Graph:
 	def __init__(self, vertices):
 		self.V = vertices # No of vertices
 		self.graph = []

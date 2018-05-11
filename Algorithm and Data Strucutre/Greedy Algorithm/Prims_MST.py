@@ -9,6 +9,9 @@ class Graph():
 		self.graph = [[0 for column in range(vertices)] for row in range(vertices)]
 		
 	def printMST(self, parent):
+		'''
+		Print the constructed MST
+		'''
 		print('Edge \t Weight')
 		for i in range(1, self.V):
 			print(parent[i],'-',i,'\t',self.graph[i][parent[i]])

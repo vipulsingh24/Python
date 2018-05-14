@@ -28,6 +28,11 @@ class Graph():
 
 
 	def dijkstra(self, src):
+		'''
+		Function that implements dijkstra algorithm
+		for a graph represented using 
+		adjancency matrix representation
+		'''
 		dist = [sys.maxsize] * self.V
 		dist[src] = 0
 		sptSet = [False] * self.V

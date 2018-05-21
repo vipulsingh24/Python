@@ -19,3 +19,14 @@ def main():
 if __name__ == "__main__":
 	main()
 
+
+# Memoized version of nth Fibonacci number
+
+
+def main():
+	n = int(input('Enter nth term number: '))
+	lookup = [None] * (n+1)
+	print('Fibonacci series upto ', n, 'term is ', fibo(n, lookup))
+
+if __name__ == "_main__":
+	main()

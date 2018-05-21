@@ -12,7 +12,7 @@ def fibo(n):
 
 
 def main():
-	n = 9
+	n = int(input('Enter nth term number: '))
 	print('Fibonacci number is ', fibo(n))
 
 

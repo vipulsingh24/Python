@@ -14,7 +14,8 @@ def lis(a):
 	return max(lis)
 
 
-a = [10, 22, 9, 33, 21, 50, 41, 60]
+# a = [10, 22, 9, 33, 21, 50, 41, 60]
+a = [int(x) for x in input('Enter number:').split()]
 n = len(a)
 print('Length of LIS is ', lis(a))
 

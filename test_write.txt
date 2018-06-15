@@ -1,0 +1,3 @@
+This file is just to check the write method while using 'w' as second argument,
+ either a new file is created or the existing file content is deleted
+ and new content is added to that file.

@@ -1,0 +1,6 @@
+This is just a text file to work with file handling 
+methods in python.
+There are many methods need to be check such as read(), readline(), readlines().
+
+Now this lines are added to check the appending a file
+with new text. It means adding a new text at end of the old file

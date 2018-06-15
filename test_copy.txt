@@ -1,0 +1,4 @@
+This is just a text file to work with file handling 
+methods in python.
+There are many methods need to be check such as read(), readline(), readlines().
+

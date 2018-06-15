@@ -188,3 +188,10 @@
 #     totalSize += getsize(i)
 # print(totalSize)
 
+
+# -----------------File Encoding----------------------------
+
+# from sys import getfilesystemencoding
+#
+# print(getfilesystemencoding())
+

@@ -1,0 +1,17 @@
+
+<table id="myTable">
+    <tr>
+        <indent>
+        <% for i in range(len(headers_list)) %>
+          <th onclick="sortTable(i)">headers_list[i]</th>
+    </tr>
+    <indent>
+    <% for i in range(m) %>
+        <tr>
+            <indent>
+            <% for j in range(n) %>
+                <td>{{ row_list[i][j] }}</td>
+            </indent>
+        </tr>
+    </indent>
+</table>
